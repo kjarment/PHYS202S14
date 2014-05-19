@@ -1,4 +1,7 @@
 
+from numpy import *
+import numpy as np
+
 def trapz(func,a,b,N):
     """
     In this function, we use the trapezoidal method of integrating in order
